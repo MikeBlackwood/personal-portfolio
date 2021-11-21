@@ -2,14 +2,14 @@ body {
   background-color: #333138;
 }
 
-h1,
-h2,
-p {
+.text-white
+{
   color: white;
 }
 h2 {
   text-transform: uppercase;
 }
+
 
 .nav-section {
   background-color: #333138;
@@ -37,13 +37,22 @@ h2 {
   margin: 0 20% 0 20%;
   width: 60%;
   color: red;
+  font-size: large;
   background-color: white;
   text-decoration: none;
   text-transform: uppercase;
   text-align: center;
   border-radius: 10px;
 }
+.pd-60
+{
+  padding-top: 60px;
+}
 
+.tech-stack-text
+{
+  color: red;
+}
 .info-card {
   display: block;
   margin: auto;
@@ -63,9 +72,19 @@ h2 {
   padding: 20px 0 20px 0;
 }
 
+.about-me-image
+{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.about-me
+{
+  padding-top: 15%;
+}
 .content-section {
   height: 100vh;
-  padding-top: 20vh;
+  padding-top: 10vh;
   display: block;
   align-items: center;
 }
@@ -75,34 +94,54 @@ h2 {
   padding-bottom: 30%;
 }
 
+.header
+{
+  color: white;
+  text-transform: uppercase;
+}
+
 @media only screen and (max-width: 766px) {
-    .profile {
-        display: none;
-      }
-    .navigation{
-        width: 100%;
-        margin: 0 0 0 0;
-    }
+  .profile {
+    display: none;
+  }
+  #nav-section-container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    height: 60px;
+  }
   .nav-section {
-    
+    display: flex;
+    align-items: flex-start;
     width: 100%;
     height: 60px;
   }
+  .navigation {
+    margin: 0 0 0 0;
+    display: flex;
+    align-items: flex-start;
+    height: 60px;
+    width: 100%;
+  }
   .navigation-item {
-    display: inline-table;  
-    list-style: none;
-    margin: 20px 0px 20px 0px;
+    margin: 20px 5px 0 5px;
+    width: 20%;
+
   }
   .navigation-item a {
-    display: block;
-   
-    width: 100%;
+    margin: 0 20px 0 0;
+    display: inline-flex;
+    width: 20vw;
     color: red;
-    background-color: white;
+    font-size: large;
+    
     text-decoration: none;
     text-transform: uppercase;
     text-align: center;
     border-radius: 10px;
   }
-
+  .about-me
+{
+  padding-top: 5%;
+}
 }

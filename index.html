@@ -15,11 +15,11 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4 col-12">
+        <div class="col-md-4 col-12" id="nav-section-container">
           <div class="nav-section">
-            <div class="profile">
+            <div class="profile ">
               <img class="avatar" src="" alt="" />
-              <h2>Michael Budei</h2>
+              <h2 class="text-white">Michael Budei</h2>
             </div>
               <nav class="navigation"> 
                 <li class="navigation-item"><a href="#about">about</a></li>
@@ -30,24 +30,47 @@
             
           </div>
         </div>
-
+          <!-- About me section -->
         <div class="col-offset-md-4 col-md-8">
           <div class="row">
-
-          <!-- About section -->
+          
           <div id="about" class="col-md-12  content-section">
             <div class="row">
+              <!-- Personal info card -->
               <div class="col-md-12 col-sm-12">
-                <div >
-                  <h1 class="text-center">Hello, my name is <span>Michael Budei.</span></h1>
-                
+                <div class="row">
+                <div>
+                  <h1 class="text-center text-white">Hello, my name is <span>Michael Budei.</span></h1>
                 </div>
-                <div class="col-md-6">
-                  <p>
-                    I'm a senior at Portland State University persuing bachelor
-                    degree in Computer Science.
+                <div class="col-lg-6 col-md-8 pd-60">
+                  <div class="text-center">
+                  <img  class="about-me-image" src="./profile.jpg" alt="" srcset="">
+                </div>
+                </div>
+                <div class="col-lg-6  about-me">
+                  <p class="text-white"> 
+                    I'm a senior student at Portland State University pursuing my bachelor's degree in Computer Science.
+                    <br/>
+                     Currently, I'm interested in web development and mobile development. 
+                     For the last three years, I have been heavily investing my free time in gaining knowledge in web development,
+                    primarily by learning basic and advanced concepts to build personal and non-profit projects. Since I am also passionate about iOS development, 
+                    I spend a lot of my free time learning and building pet projects for iOS device. 
                   </p>
                 </div>
+                <!-- Skills -->
+                <div class="col-md-12 pd-60" >
+                 
+                  <h3 class="text-center text-white"> SKILLS</h3>
+                  <div class="row">
+                    <div class="col-md-6">
+                    <div class="progress">
+                      
+                      <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div>
+                  </div>
+              </div>
+              </div>
               </div>
             </div>
           </div>
@@ -59,7 +82,7 @@
           class="col-md-12 content-section" >   
           <div class="row">
             <div class="col-md-12 text-center">
-              <h2>Work</h2>
+              <h2 class="header">Work</h2>
             </div>
             <div class="col-md-6"></div>
             <div class="col-md-6"></div>
@@ -70,21 +93,27 @@
           <div
             id="projects"
             class="col-md-12 content-section"
-            style="background-color: purple"
+          
           >   
             <div class="row">
               <div class="col-md-12 text-center">
-                <h2>Projects</h2>
+                <h2 class="header">Projects</h2>
               </div>
               <div class="col-lg-6 col-md-4 col-sm-12">
                 <div class="card">
                   <img src="..." class="card-img-top" alt="..." />
                   <div class="card-body">
+                    <h5 class="card-title">Church of Grace website</h5>
                     <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      Non-profit website for church. 
+                      <br/>
+                      
                     </p>
-                    <button>
+                    <h6>
+                      Technologies used:
+                    </h6>
+                    
+                    <button class="btn btn-primary">
                       <a href="https://churchofgrace.us/">visit</a>
                     </button>
                   </div>
@@ -95,8 +124,7 @@
                   <img src="..." class="card-img-top" alt="..." />
                   <div class="card-body">
                     <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
+                      
                     </p>
                   </div>
                 </div>
@@ -107,7 +135,7 @@
           <div id="contact" class="col-md-12 content-section">
             <div class="row">
               <div class="col-12 text-center">
-                <h2>Contact me</h2>
+                <h2 class="header">Contact me</h2>
               </div class="text-center">
               <form class="form" style="padding-top: 60px;" action="email">
                 <div class="row">
