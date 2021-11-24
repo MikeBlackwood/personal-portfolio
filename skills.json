@@ -1,0 +1,22 @@
+[
+    {
+        "language": "HTML5",
+        "proficiency":  90
+    },
+    {
+        "language": "CSS3",
+        "proficiency":  74
+    },
+    {
+        "language": "JS",
+        "proficiency":  75
+    },
+    {
+        "language": "React",
+        "proficiency":  80
+    },
+    {
+        "language": "Swift",
+        "proficiency":  68
+    }
+]

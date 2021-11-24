@@ -9,46 +9,53 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css" />
     <title>Personal Portfolio</title>
   </head>
   <body>
     <div class="container-fluid">
       <div class="row">
+
+        <!-- Navigation -->
         <div class="col-md-4 col-12" id="nav-section-container">
           <div class="nav-section">
-            <div class="profile ">
-              <img class="avatar" src="" alt="" />
-              <h2 class="text-white">Michael Budei</h2>
+            <div class="profile">
+              <img class="avatar" src="./profile.jpg" alt="" />
+              <h3 class="text-white">Michael Budei</h3>
             </div>
-              <nav class="navigation"> 
+
+                <ul class="navigation">
                 <li class="navigation-item"><a href="#about">about</a></li>
                 <li class="navigation-item"><a href="#work">work</a></li>
                 <li class="navigation-item"><a href="#projects">projects</a></li>
                 <li class="navigation-item"><a href="#contact">contact</a></li> 
-              </nav>
+              </ul>
             
           </div>
         </div>
+
           <!-- About me section -->
         <div class="col-offset-md-4 col-md-8">
           <div class="row">
-          
-          <div id="about" class="col-md-12  content-section">
+          <div id="about" class="col-md-12 content-section">
             <div class="row">
               <!-- Personal info card -->
               <div class="col-md-12 col-sm-12">
                 <div class="row">
-                <div>
-                  <h1 class="text-center text-white">Hello, my name is <span>Michael Budei.</span></h1>
-                </div>
-                <div class="col-lg-6 col-md-8 pd-60">
-                  <div class="text-center">
+                
+                <div class=" offset-lg-3 col-lg-6 col-md-12 col-sm-12 pd-60">
+                  <div class="text-center" style="margin: auto;">
                   <img  class="about-me-image" src="./profile.jpg" alt="" srcset="">
                 </div>
-                </div>
-                <div class="col-lg-6  about-me">
-                  <p class="text-white"> 
+              </div>
+                <!-- About me  -->
+                <section class="row pd-60">
+                <div class="col-lg-6 col-md-12 about-me-info ">
+                  <h3 class="text-center"><i>About me</i></h3>
+                  <p> 
                     I'm a senior student at Portland State University pursuing my bachelor's degree in Computer Science.
                     <br/>
                      Currently, I'm interested in web development and mobile development. 
@@ -56,21 +63,19 @@
                     primarily by learning basic and advanced concepts to build personal and non-profit projects. Since I am also passionate about iOS development, 
                     I spend a lot of my free time learning and building pet projects for iOS device. 
                   </p>
+                  <div>
+                    <a href="https://github.com/MikeBlackwood" style="padding: 0 10px 0 10px ;"><img src="https://img.icons8.com/ios/35/000000/github--v1.png"/></a>
+                    <a href="https://github.com/MikeBlackwood"><img src="https://img.icons8.com/ios/35/000000/instagram-new--v3.png"/></a>
+                  </div>
                 </div>
                 <!-- Skills -->
-                <div class="col-md-12 pd-60" >
-                 
-                  <h3 class="text-center text-white"> SKILLS</h3>
-                  <div class="row">
-                    <div class="col-md-6">
-                    <div class="progress">
-                      
-                      <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                    </div>
-                  </div>
-                  </div>
-              </div>
-              </div>
+                <div class="col-lg-6 col-md-12 ">
+                  <h3 class="text-center"><i>Skills</i></h3>
+                  <div id="skills-container"></div>
+                </div>
+              </section>
+            </div>
+              
               </div>
             </div>
           </div>
@@ -84,7 +89,15 @@
             <div class="col-md-12 text-center">
               <h2 class="header">Work</h2>
             </div>
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              
+              <div style="border-left: 1px solid red;">          
+              <div>
+                64 Audio
+                <img src="" alt="">
+              </div></div>
+
+            </div>
             <div class="col-md-6"></div>
           </div> 
         </div>
@@ -205,5 +218,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="index.js"></script>
   </body>
 </html>
