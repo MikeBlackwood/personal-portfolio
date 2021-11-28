@@ -27,7 +27,8 @@ h2 {
 
 .center 
 {
-  align-items: center; justify-content: center;
+  align-items: center; 
+  justify-content: center;
   padding-top: 10px;
 }
 .navigation {
@@ -76,7 +77,7 @@ h2 {
 .avatar {
   width: 240px;
   height: auto;
-  border-radius: 50px;
+  border-radius: 75%;
   padding: 20px 0 20px 0;
 }
 
