@@ -75,7 +75,8 @@ h2 {
 
 .avatar {
   width: 240px;
-  height: 240px;
+  height: auto;
+  border-radius: 50px;
   padding: 20px 0 20px 0;
 }
 
@@ -90,9 +91,8 @@ h2 {
 
 
 .content-section {
-  height: 100vh;
-
-  padding-top: 10vh;
+  padding-top: 10vh; 
+  min-height: 650px;
   display: block;
   align-items: center;
 }
@@ -101,8 +101,6 @@ h2 {
   padding-top: 30%;
   padding-bottom: 30%;
 }
-
-
 
 @media only screen and (max-width: 904px) {
   .nav-section{
@@ -145,4 +143,13 @@ h2 {
   display: block;
   align-items: center;
 }
+}
+
+.icon{
+  color:#2B2D42;
+  padding: 0 10px 0 10px ;
+}
+
+.icon:hover{
+  color:#D90429
 }
