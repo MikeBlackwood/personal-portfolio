@@ -13,11 +13,11 @@ let data = [
     },
     {
         "language": "React",
-        "proficiency":  70
+        "proficiency":  64
     },
     {
         "language": "Swift",
-        "proficiency":  72
+        "proficiency":  55
     },
     {
         "language": "Java",
@@ -87,5 +87,4 @@ let skillLevel = (level) => {
 
 skillGenerator()
 
-// animateProgress(progess)
 
